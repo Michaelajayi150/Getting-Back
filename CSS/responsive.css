@@ -39,6 +39,15 @@
     padding-top: 15px;
     text-align: justify;
   }
+  
+  footer .foot .left input {
+    width: 80%;
+  }
+  
+  .center-note {
+    position: absolute;
+    transform: translate(80%,-185px);
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -60,5 +69,13 @@
   header .intro .name {
     font: bold 47px sans-serif;
     line-height: 76px;
+  }
+  
+  footer .foot .left input {
+    width: 100%;
+  }
+  
+  .center-note {
+    transform: translate(50%,-140px);
   }
 }
