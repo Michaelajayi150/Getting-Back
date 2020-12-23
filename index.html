@@ -135,10 +135,10 @@
         <div class="left">
           <div class="heading">Subscribe</div>
           <span>Never miss out on Popular Deals</span>
-          <div>
-            <input type="email" placeholder="Your email" maxlength="20">
-          </div>
-          <div class="gg"><span class="boxer">Subscribe</span></div>
+          <form id="form" name="form1" action="#">
+            <input type="email" placeholder="Your email" maxlength="100" name="text1">
+            <div class="gg"><span class="boxer" onclick="notifyOn(document.form1.text1)">Subscribe</span></div>
+          </form>
         </div>
         <div class="right">
           <img src="./asset/Socials.png" alt="contact-us">
@@ -148,6 +148,7 @@
           <span class="mt">tanyatucker@tt.com</span>
         </div>
       </section>
+      <div class="center-note"><span class="coloring">Thank you for your subscription</span></div>
       <div class="center-logo">
         <a href="#"><img src="./asset/LOGO.png" alt="Logo"></a>
         <div class="copyright">&copy; 2020</div>
