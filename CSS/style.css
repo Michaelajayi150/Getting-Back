@@ -253,3 +253,14 @@ section .boxer {
 .copyright {
   padding: 10px 0;
 }
+
+/* Notification bar */
+.center-note {
+  text-align: center;
+}
+
+.coloring {
+  opacity: 0;
+  padding: 10px 6px;
+  background: rgba(255,255,255,0.2);
+}
