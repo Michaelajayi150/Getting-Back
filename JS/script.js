@@ -11,10 +11,13 @@ function mobileToggleOn() {
 var frame,
     draw = function() {
       var act = document.querySelector('.coloring');
+      var pic = document.querySelector('#pics');
       if (act.style.opacity == 0) {
         act.style.opacity = 1;
+        pic.style.marginTop = 25 + 'px'; 
       } else {
         act.style.opacity = 0;
+        pic.style.marginTop = 0 + 'px'; 
         clearInterval(frame);
       }
     };
